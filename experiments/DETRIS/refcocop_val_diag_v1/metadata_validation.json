@@ -1,0 +1,12 @@
+{
+  "num_expressions_diag": 10758,
+  "num_expressions_metadata": 10758,
+  "num_refs": 3805,
+  "target_area_max_abs_diff": 1.1102230246251565e-16,
+  "target_area_mean_abs_diff": 3.598220903237782e-17,
+  "bbox_area_max_abs_diff": 0.003426806006005978,
+  "bbox_area_mean_abs_diff": 0.0008332220039405599,
+  "target_area_source_min": 0.0245458984375,
+  "target_area_source_p01": 0.031996240762100045,
+  "target_area_source_p05": 0.0370818661971831
+}

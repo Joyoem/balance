@@ -1,0 +1,31 @@
+{
+  "design": {
+    "dataset": "RefCOCO+ val",
+    "model": "DETRIS-B",
+    "bootstrap_unit": "seg_id/referring object",
+    "bootstrap_repetitions": 2000,
+    "interpretation": "Associational attribution only; not causal inference."
+  },
+  "within_object_short_long": {
+    "num_refs_with_length_variation": 3202,
+    "mean_short_iou": 0.6838782236759618,
+    "mean_long_iou": 0.6622383879528614,
+    "mean_delta_iou_long_minus_short": -0.021639835723100465,
+    "delta_iou_ci_low": -0.03427782221784714,
+    "delta_iou_ci_high": -0.009423759976351639,
+    "fraction_long_worse": 0.5087445346658338,
+    "mean_length_delta_words": 2.8572767020612115,
+    "mean_delta_pred_target_ratio": -0.03354556021073487
+  },
+  "within_object_fixed_effect": {
+    "beta_iou_per_additional_word": -0.00718495173653019,
+    "beta_percentage_points_per_word": -0.7184951736530191,
+    "ci_low_percentage_points_per_word": -1.0797637240695683,
+    "ci_high_percentage_points_per_word": -0.3349657909207749
+  },
+  "multivariable_predictors": [
+    "log_target_area",
+    "log1p_distractors",
+    "mean_expression_length"
+  ]
+}

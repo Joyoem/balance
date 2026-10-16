@@ -1,0 +1,10 @@
+{
+  "target_area_ratio_q33": 0.060002920560747595,
+  "target_area_ratio_q67": 0.11008586711711708,
+  "target_area_definition": "relative-low <= q33; relative-mid q33-q67; relative-high > q67",
+  "distractor_definition": "1; 2-4; 5+ same-category distractors",
+  "expression_length_definition": "1-2; 3-5; 6+ whitespace-token words",
+  "bootstrap_unit": "seg_id",
+  "bootstrap_repetitions": 1000,
+  "seed": 20261016
+}

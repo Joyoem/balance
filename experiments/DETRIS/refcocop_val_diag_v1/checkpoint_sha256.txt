@@ -1,0 +1,1 @@
+cdcc780f9ee49b561db0a6812dd5ec3879227d5e1aff049056c0ff170cf01899  checkpoints/base/base_refcoco+.pth

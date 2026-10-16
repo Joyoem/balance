@@ -1,0 +1,18 @@
+run_id=detris_b_refcocop_val_diag_v1_20261016_192004
+date=2026-10-16T19:20:16+00:00
+model=DETRIS-B
+dataset=RefCOCO+
+split=val
+precision=FP32
+input_size=448
+checkpoint=checkpoints/base/base_refcoco+.pth
+git_commit=c94b1e1e5253f51eb3a924fe944a455ffe1d75d6
+
+Python 3.9.18
+torch= 2.0.1+cu118
+numpy= 1.26.0
+opencv= 4.8.1
+cuda_runtime= 11.8
+
+NVIDIA GeForce RTX 3060, 595.99.02, 12288 MiB
+NVIDIA GeForce RTX 3060, 595.99.02, 12288 MiB

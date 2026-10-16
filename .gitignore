@@ -1,0 +1,24 @@
+# Raw datasets
+datasets/
+data/
+*.lmdb
+*.lmdb-lock
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Images / masks / caches
+images/
+masks/
+checkpoints/
+pretrained/
+huggingface_cache/
+__pycache__/
+*.pyc
+
+# Local/private
+.env
+.DS_Store
